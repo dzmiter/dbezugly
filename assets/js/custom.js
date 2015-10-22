@@ -7,11 +7,12 @@
     });
     jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({
       animationSpeed: 'slow',
-      theme: 'light_square',
+      theme: 'facebook',
       slideshow: false,
       overlay_gallery: false,
       social_tools: false,
-      deeplinking: false
+      deeplinking: false,
+	  hook: "data-rel"
     });
   });
 
